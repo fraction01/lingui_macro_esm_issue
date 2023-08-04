@@ -1,0 +1,26 @@
+{
+  "name": "lingui-macro-esm-issue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "extract": "lingui extract",
+    "compile": "lingui compile"
+  },
+  "dependencies": {
+    "@lingui/core": "^4.3.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@lingui/cli": "^4.3.0",
+    "@lingui/macro": "^4.3.0",
+    "babel-plugin-macros": "^3.1.0"
+  }
+}
